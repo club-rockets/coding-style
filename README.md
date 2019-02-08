@@ -46,15 +46,15 @@ void java() {
 
 ### Pointer alignement
 
-Both pointer types and reference types should be written with no space between the type name and the \*, except when multiple pointers are declared on the same line;
+Pointer types should be written with a space between the type name and the `*` (this means there is no space before the identifier).
 
 ```c
 // Good
-int* a;
+int *a;
 float *b, *c;
 
 // Bad
-int *a;
+int* a;
 float* b,* c;
 ```
 
